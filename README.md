@@ -11,7 +11,7 @@ __Features__
 
 ## Installation
 
-Environment managed with Conda (see _paisnn_environment.yaml), major packages include: 
+Environment managed with Conda (see paisnn_environment.yaml), major packages include: 
 - `torch`
 - `CUDA 12.8`
 - `scikit-learn`
