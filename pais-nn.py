@@ -410,6 +410,7 @@ def main():
     # Plot ecosystem proportions over sites
     plot_ecosystem_props(df_props, args.plotfmt)
     logger.info(f'Ecosystem proportions plot saved to {OUT_PLOT_PREF}.{args.plotfmt}')
+    logger.info('Done.')
 
 
 if __name__ == "__main__":
