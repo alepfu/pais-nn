@@ -390,7 +390,7 @@ def main():
     logger.info('Running EM calculations...')
     site_props = {}
     for site, preds in df_preds.groupby('site'):
-        site_props[site] = calc_ecosys_props(preds, args.ecosysdists)
+        site_props[site] = calc_ecosys_props(preds, args.ecosyspriors)
 
     # Combine results into long format dataframe and output to CSV-fle
     records = []
