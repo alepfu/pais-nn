@@ -11,8 +11,13 @@ __Features__
 
 ## Installation
 
-Environment managed with Conda, see _paisnn_environment.yaml_.
-Major packages include: `torch`, `CUDA 12.8`, `scikit-learn`, `pandas`, `seaborn`, `biopython`.
+Environment managed with Conda (see _paisnn_environment.yaml), major packages include: 
+- `torch`
+- `CUDA 12.8`
+- `scikit-learn`
+- `pandas`
+- `seaborn`
+- `biopython`
 
 ```bash
 # Firsts, clone the repository to your local machine
@@ -42,14 +47,14 @@ __Arguments__
 | `-v`, `--verbosity`   | Logging verbosity: 0 = silent, 1 = info, 2 = debug (default)  |
 
 __Inputs__
-- Site directory: Should contain subdirectories of FASTA or .fasta.gz files per site.
+- Site directory: Should contain subdirectories of (gzipped) FASTA files per site.
 - Model file: A serialized PyTorch model bundle (.pth) including weights and label encoder.
 - Ecosystem priors file: Prior probabilities for ecosystems used in EM. CSV-file with columns: ecosys_label, cluster_label.
 
 __Outputs__
 - cluster_predictions.csv: Sequence-level predictions with confidence scores.
 - ecosystem_proportions.csv: Estimated ecosystem proportions per site/sample.
-- ecosystem_proportions.png/svg: Grouped barplot visualization of estimated proportions.
+- ecosystem_proportions.png/svg: Grouped barplot visualization of estimated proportions over sites.
 
 __Expected directory structure__
 ```
