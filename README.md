@@ -27,7 +27,7 @@ conda activate paisnn
 ## Usage
 ```bash
 python pais-nn.py \
-	-m  paisnn_min_size_10_clusters.pth \
+	-m paisnn_min_size_10_clusters.pth \
 	-s test_data/river_estuary \
 	-e paisnn_ecosystem_priors.csv
 ```
