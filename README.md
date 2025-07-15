@@ -12,7 +12,7 @@ __Features__
 ## Installation
 
 Environment managed with Conda, see _paisnn_environment.yaml_.
-Major packages include: `torch`, `scikit-learn`, `pandas`, `seaborn`, `biopython`.
+Major packages include: `torch`, `CUDA 12.8`, `scikit-learn`, `pandas`, `seaborn`, `biopython`.
 
 ```bash
 # Firsts, clone the repository to your local machine
