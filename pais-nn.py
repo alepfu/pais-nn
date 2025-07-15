@@ -6,7 +6,7 @@ Author: Alexander Pfundner
 Created: 2025-07-11
 
 Description:
-    Applies the PAIS neural network model to assign IS cluster labels to new sequences and
+    Applies the PAIS neural network model to assign cluster labels to new insertion sequences and
     estimates ecosystem proportions using expectation-maximization.
 
 Usage:
