@@ -1,1 +1,3 @@
-# PAIS-NN | Predict PAIS cluster labels and estimate ecosystem proportions
+# PAIS-NN
+
+Predict PAIS cluster labels and estimate ecosystem proportions
