@@ -66,7 +66,7 @@ __Outputs__
 - ecosystem_proportions.png/svg: Grouped barplot visualization of estimated proportions.
 
 __Example Data__
-`test_data/river_estuary` contains metagenomic samples collected from three different sites (BR2, BR1, and BAY) along the Brisbane River estuary ([Prabhu et al. 2024](https://doi.org/10.1093/ismeco/ycae067)).
+- `test_data/river_estuary` contains metagenomic samples collected from three different sites (BR2, BR1, and BAY) along the Brisbane River estuary ([Prabhu et al. 2024](https://doi.org/10.1093/ismeco/ycae067)).
 
 ## License
 [MIT](https://github.com/alepfu/pais-nn/blob/main/LICENSE)
