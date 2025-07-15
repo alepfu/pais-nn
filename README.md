@@ -31,20 +31,6 @@ python pais-nn.py \
 	-s test_data/river_estuary \
 	-e paisnn_ecosystem_priors.csv
 ```
-
-__Expected directory structure__
-```
-site_dir/
-├── site_A
-│   ├── sample1.fasta
-│   ├── sample2.fasta
-|	└── ...
-├── site_B
-│   ├── sample1.fasta
-│   ├── sample2.fasta
-|	└── ...
-└── ...
-```
 __Arguments__
 | Flag                  | Description                                                   |
 | --------------------- | ------------------------------------------------------------- |
@@ -64,6 +50,20 @@ __Outputs__
 - cluster_predictions.csv: Sequence-level predictions with confidence scores.
 - ecosystem_proportions.csv: Estimated ecosystem proportions per site/sample.
 - ecosystem_proportions.png/svg: Grouped barplot visualization of estimated proportions.
+
+__Expected directory structure__
+```
+site_dir/
+├── site_A
+│   ├── sample1.fasta
+│   ├── sample2.fasta
+|	└── ...
+├── site_B
+│   ├── sample1.fasta
+│   ├── sample2.fasta
+|	└── ...
+└── ...
+```
 
 __Example Data__
 - `test_data/river_estuary` contains metagenomic samples collected from three different sites (BR2, BR1, and BAY) along the Brisbane River estuary ([Prabhu et al. 2024](https://doi.org/10.1093/ismeco/ycae067)).
