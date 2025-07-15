@@ -405,7 +405,7 @@ def main():
                 })
     df_props = pd.DataFrame(records)
     df_props.to_csv(OUT_PROPS, index=False)
-    logger.info(f'Ecosystem proportions written to {OUT_PREDS}')
+    logger.info(f'Ecosystem proportions written to {OUT_PROPS}')
 
     # Plot ecosystem proportions over sites
     plot_ecosystem_props(df_props, args.plotfmt)
