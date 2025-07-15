@@ -50,7 +50,7 @@ __Arguments__
 | --------------------- | ------------------------------------------------------------- |
 | `-m`, `--model`       | Path to trained `.pth` model (required)                       |
 | `-s`, `--sitedir`     | Path to site directory with sequences (required)              |
-| `-e`, `--ecosysdists` | Path to `.csv` with ecosystem prior distributions (required)  |
+| `-e`, `--ecosyspriors` | Path to `.csv` with ecosystem prior distributions (required)  |
 | `-p`, `--plotfmt`     | Output plot format: `png` (default) or `svg`                  |
 | `-c`, `--confthresh`  | Confidence threshold for filtering predictions (default: 0.5) |
 | `-v`, `--verbosity`   | Logging verbosity: 0 = silent, 1 = info, 2 = debug (default)  |
